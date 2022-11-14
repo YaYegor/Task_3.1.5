@@ -1,10 +1,11 @@
 package com.yayegor.springboot;
 
+import com.yayegor.springboot.web.config.AppConfig;
+import com.yayegor.springboot.web.consumer.AppConsumer;
+import com.yayegor.springboot.web.model.User;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import web.config.AppConfig;
-import web.consumer.AppConsumer;
-import web.model.User;
+
 
 @SpringBootApplication
 public class Application {
