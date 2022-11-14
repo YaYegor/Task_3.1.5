@@ -1,4 +1,4 @@
-package web.config;
+package com.yayegor.springboot.web.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,7 +7,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@ComponentScan("web")
+@ComponentScan("com.yayegor.springboot.web")
 public class AppConfig {
 
     @Bean

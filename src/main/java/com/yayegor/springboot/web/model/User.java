@@ -1,4 +1,4 @@
-package web.model;
+package com.yayegor.springboot.web.model;
 
 public class User {
     private Long id;

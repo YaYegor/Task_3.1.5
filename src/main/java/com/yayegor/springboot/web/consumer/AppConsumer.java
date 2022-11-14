@@ -1,9 +1,9 @@
-package web.consumer;
+package com.yayegor.springboot.web.consumer;
 
+import com.yayegor.springboot.web.model.User;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import web.model.User;
 
 import java.util.List;
 
